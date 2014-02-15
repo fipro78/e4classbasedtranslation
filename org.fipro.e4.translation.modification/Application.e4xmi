@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_aS_WoJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ide.application" bindingContexts="_aS_WqZZbEeOIdpZ7F64Nyg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_aS_WoZZbEeOIdpZ7F64Nyg" label="%window.title" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_aS_9xJZbEeOIdpZ7F64Nyg">
+      <children xsi:type="advanced:Perspective" xmi:id="_aS_9xZZbEeOIdpZ7F64Nyg">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_aS_9xpZbEeOIdpZ7F64Nyg">
+          <children xsi:type="basic:PartStack" xmi:id="_aS_9x5ZbEeOIdpZ7F64Nyg">
+            <children xsi:type="basic:Part" xmi:id="_aS_9yJZbEeOIdpZ7F64Nyg" contributionURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.parts.SamplePart" label="%part.sample.title"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_aS_9vZZbEeOIdpZ7F64Nyg" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_aS_9vpZbEeOIdpZ7F64Nyg" label="%menu.file">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aS_9v5ZbEeOIdpZ7F64Nyg" label="%menu.file.open" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/sample.png" command="_aS_9tJZbEeOIdpZ7F64Nyg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aS_9wJZbEeOIdpZ7F64Nyg" label="%menu.file.save" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/save_edit.png" command="_aS_9t5ZbEeOIdpZ7F64Nyg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aS_9wZZbEeOIdpZ7F64Nyg" label="%menu.file.quit" command="_aS_9sJZbEeOIdpZ7F64Nyg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_aS_9wpZbEeOIdpZ7F64Nyg" label="%menu.help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aS_9w5ZbEeOIdpZ7F64Nyg" label="%menu.help.about" command="_aS_9upZbEeOIdpZ7F64Nyg"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_aTAkwJZbEeOIdpZ7F64Nyg">
+      <children xsi:type="menu:ToolBar" xmi:id="_aTAkwZZbEeOIdpZ7F64Nyg" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_aTAkwpZbEeOIdpZ7F64Nyg" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/sample.png" command="_aS_9tJZbEeOIdpZ7F64Nyg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_aTAkw5ZbEeOIdpZ7F64Nyg" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/save_edit.png" command="_aS_9t5ZbEeOIdpZ7F64Nyg"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_aS_9sZZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.handler.quitCommand" contributionURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.handlers.QuitHandler" command="_aS_9sJZbEeOIdpZ7F64Nyg"/>
+  <handlers xmi:id="_aS_9tZZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.handler.openCommand" contributionURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.handlers.OpenHandler" command="_aS_9tJZbEeOIdpZ7F64Nyg"/>
+  <handlers xmi:id="_aS_9uJZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.handler.saveCommand" contributionURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.handlers.SaveHandler" command="_aS_9t5ZbEeOIdpZ7F64Nyg"/>
+  <handlers xmi:id="_aS_9u5ZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.handler.aboutCommand" contributionURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.handlers.AboutHandler" command="_aS_9upZbEeOIdpZ7F64Nyg"/>
+  <bindingTables xmi:id="_aS_9spZbEeOIdpZ7F64Nyg" bindingContext="_aS_WqZZbEeOIdpZ7F64Nyg">
+    <bindings xmi:id="_aS_9s5ZbEeOIdpZ7F64Nyg" keySequence="M1+Q" command="_aS_9sJZbEeOIdpZ7F64Nyg"/>
+    <bindings xmi:id="_aS_9tpZbEeOIdpZ7F64Nyg" keySequence="M1+O" command="_aS_9tJZbEeOIdpZ7F64Nyg"/>
+    <bindings xmi:id="_aS_9uZZbEeOIdpZ7F64Nyg" keySequence="M1+S" command="_aS_9t5ZbEeOIdpZ7F64Nyg"/>
+    <bindings xmi:id="_aS_9vJZbEeOIdpZ7F64Nyg" keySequence="M1+A" command="_aS_9upZbEeOIdpZ7F64Nyg"/>
+  </bindingTables>
+  <rootContext xmi:id="_aS_WqZZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_aS_WqpZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_aS_Wq5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_aS_9sJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_aS_9tJZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.open" commandName="openCommand"/>
+  <commands xmi:id="_aS_9t5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_aS_9upZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_aS_WopZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_aS_Wo5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_aS_WpJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_aS_WpZZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_aS_WppZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_aS_Wp5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_aS_WqJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

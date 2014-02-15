@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="org.fipro.e4.translation.modification"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/org.fipro.e4.translation.modification/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="org.fipro.e4.translation.modification">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.LifecycleManager">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
