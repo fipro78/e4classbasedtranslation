@@ -2,7 +2,8 @@ package org.fipro.e4.translation.modification.resources;
 
 import org.eclipse.e4.core.services.nls.Message;
 
-@Message(contributorURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.resources.ListMockBundle")
+//Enable this to use class based resource bundles
+//@Message(contributorURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.resources.ListMockBundle")
 public class Messages {
 
 	public String windowTitle;
