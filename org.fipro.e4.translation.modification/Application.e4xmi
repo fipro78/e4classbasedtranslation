@@ -41,10 +41,10 @@
     <children xmi:id="_aS_WqpZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_aS_Wq5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <commands xmi:id="_aS_9sJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
-  <commands xmi:id="_aS_9tJZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.open" commandName="openCommand"/>
-  <commands xmi:id="_aS_9t5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
-  <commands xmi:id="_aS_9upZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_aS_9sJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.file.exit" commandName="%menu.file.quit"/>
+  <commands xmi:id="_aS_9tJZbEeOIdpZ7F64Nyg" elementId="org.fipro.e4.translation.modification.open" commandName="%menu.file.open"/>
+  <commands xmi:id="_aS_9t5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.file.save" commandName="%menu.file.save"/>
+  <commands xmi:id="_aS_9upZbEeOIdpZ7F64Nyg" elementId="org.eclipse.ui.help.aboutAction" commandName="%menu.help.about"/>
   <addons xmi:id="_aS_WopZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_aS_Wo5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_aS_WpJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -52,4 +52,5 @@
   <addons xmi:id="_aS_WppZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_aS_Wp5ZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
   <addons xmi:id="_aS_WqJZbEeOIdpZ7F64Nyg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_jZCCEKt4EeO97ccSLg1-4g" elementId="org.fipro.e4.translation.modification.addon.0" contributionURI="bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.ResourceBundleAddon"/>
 </application:Application>

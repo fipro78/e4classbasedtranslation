@@ -4,7 +4,6 @@ import java.util.ResourceBundle;
 
 import org.eclipse.e4.core.internal.services.ResourceBundleHelper;
 import org.eclipse.e4.core.services.translation.ResourceBundleProvider;
-import org.eclipse.osgi.service.localization.BundleLocalization;
 import org.osgi.framework.Bundle;
 
 public class CustomResourceBundleProvider implements ResourceBundleProvider {
