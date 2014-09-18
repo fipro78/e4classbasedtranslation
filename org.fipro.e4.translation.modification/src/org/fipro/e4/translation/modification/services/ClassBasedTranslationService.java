@@ -23,7 +23,7 @@ public class ClassBasedTranslationService extends TranslationService {
 		
 		ResourceBundle resourceBundle = ResourceBundleHelper.getResourceBundleForUri(
 				"bundleclass://org.fipro.e4.translation.modification/org.fipro.e4.translation.modification.resources.ListMockBundle", 
-				ResourceBundleHelper.toLocale(locale), 
+				locale, 
 				provider);
 		return getResourceString(key, resourceBundle);
 	}

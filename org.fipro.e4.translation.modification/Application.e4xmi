@@ -22,7 +22,7 @@
     </mainMenu>
     <trimBars xmi:id="_aTAkwJZbEeOIdpZ7F64Nyg">
       <children xsi:type="menu:ToolBar" xmi:id="_aTAkwZZbEeOIdpZ7F64Nyg" elementId="toolbar:org.eclipse.ui.main.toolbar">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aTAkwpZbEeOIdpZ7F64Nyg" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/sample.png" command="_aS_9tJZbEeOIdpZ7F64Nyg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_aTAkwpZbEeOIdpZ7F64Nyg" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/sample.png" tooltip="%menu.file.open" command="_aS_9tJZbEeOIdpZ7F64Nyg"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_aTAkw5ZbEeOIdpZ7F64Nyg" iconURI="platform:/plugin/org.fipro.e4.translation.modification/icons/save_edit.png" command="_aS_9t5ZbEeOIdpZ7F64Nyg"/>
       </children>
     </trimBars>
